@@ -1,0 +1,31 @@
+// Social
+
+.social-icons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  margin-bottom: 3.5rem;
+
+  svg {
+    width: 100%;
+    max-width: 30px;
+    fill: $icon;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $highlight;
+    flex-basis: 100%;
+    min-height: 5rem;
+    min-width: auto;
+    border-radius: 15px;
+  }
+}
+.icon {
+  padding: 1rem 1.5rem;
+}
